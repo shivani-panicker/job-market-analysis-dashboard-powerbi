@@ -1,51 +1,25 @@
 # Job Market Analytics Dashboard 2023
 
-An end-to-end data analytics project analyzing over 32,000 job postings to help job seekers make data-driven career decisions. The project uses Excel Power Query for data cleaning and Power BI for interactive visualization.
+## Project Overview
 
-## Dataset Source
+The Job Market Analytics Dashboard 2023 is an end-to-end data analytics project that analyzes over 32,000 job postings to uncover trends in salaries, hiring demand, remote work, and required skills. The project uses Excel Power Query for data cleaning and transformation, Power Pivot for data modeling, DAX for calculations, and Power BI to build an interactive dashboard that helps job seekers make data-driven career decisions.
 
-Dataset sourced from Luke Barousse's Excel Data Analytics Course repository.
-Repository: https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main
+## Objectives
 
-## Business Questions Answered
+- Identify the highest-paying job roles.
+- Compare salaries between remote and onsite positions.
+- Analyze job demand across different countries.
+- Discover the most in-demand skills across job roles.
+- Examine whether degree requirements influence salary levels.
+- Track hiring trends throughout 2023.
 
-- Which job roles offer the highest average salaries?
-- Do remote jobs pay more than onsite roles?
-- Which countries have the highest job demand?
-- Which skills are most in demand across all roles?
-- Does degree requirement affect salary levels?
-- How did job postings trend across 2023?
+## Dataset
 
-## Data Pipeline
+- **Source:** Luke Barousse's Excel Data Analytics Course Repository
+- **Repository:** https://github.com/lukebarousse/Excel_Data_Analytics_Course/tree/main
+- **Size:** Over 32,000 job postings from 2023
 
-```text
-Raw CSV
-   │
-   ▼
-Power Query Cleaning
-   │
-   ▼
-Star Schema Model
-   │
-   ▼
-DAX Measures
-   │
-   ▼
-Power BI Dashboard
-```
-
-## Dashboard Features
-
-- Interactive slicers for Role, Country, Date Range, and Job Type
-- Cross-filtering across all visuals
-- Dynamic chart highlighting that automatically emphasizes the top value
-- Dynamic dashboard title that updates with slicer selections
-- Quarterly job posting trend analysis
-- Top 10 skills analysis with relationships across tables
-- Remote vs onsite salary and distribution comparison
-- Role demand vs salary comparison chart
-
-## Tools and Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -54,11 +28,80 @@ Power BI Dashboard
 | DAX | Calculated measures and KPIs |
 | Power BI Desktop | Interactive dashboard |
 
-## Project Highlights
+## Data Cleaning & Transformation
 
-- Cleaned and transformed 32,000+ job records using Power Query.
-- Built a star schema data model with optimized relationships.
-- Created dynamic DAX measures for salary, demand, and trend analysis.
-- Designed an interactive Power BI dashboard with cross-filtering and dynamic visuals.
-- Delivered insights into salary trends, skill demand, remote work, and global hiring patterns.
+The dataset was prepared using Excel Power Query through the following steps:
+
+- Removed duplicate records and handled missing values.
+- Standardized job titles and location formats.
+- Cleaned salary and date fields for consistency.
+- Created a structured star schema data model using Power Pivot.
+- Established relationships between fact and dimension tables for efficient analysis.
+
+## Data Analysis
+
+The analysis focused on answering key business questions using DAX measures and interactive visualizations.
+
+Key analyses included:
+
+- Average salary by job role.
+- Remote versus onsite salary comparison.
+- Job demand by country.
+- Top 10 most requested skills.
+- Salary comparison based on degree requirements.
+- Quarterly job posting trends throughout 2023.
+
+## Dashboard
+
+The Power BI dashboard includes:
+
+- Interactive slicers for Role, Country, Date Range, and Job Type.
+- Cross-filtering across all visuals.
+- Dynamic dashboard titles that update based on selections.
+- Automatic highlighting of top-performing values.
+- Quarterly hiring trend visualization.
+- Skill demand analysis.
+- Remote versus onsite salary comparison.
+- Role demand versus salary comparison chart.
+
+## Key Insights
+
+- Certain specialized roles consistently offered the highest average salaries.
+- Remote positions remained competitive with onsite roles for many high-paying jobs.
+- Job demand varied significantly across countries, with a few markets accounting for a large share of postings.
+- Technical skills appeared most frequently across multiple job categories.
+- Hiring activity fluctuated across quarters, revealing seasonal recruitment patterns.
+
+## Recommendations
+
+- Prioritize learning high-demand technical skills to improve employability.
+- Consider remote opportunities when targeting higher-paying positions.
+- Focus job searches on countries with stronger hiring demand for target roles.
+- Track seasonal hiring trends to identify favorable application periods.
+- Use salary insights to negotiate compensation more effectively.
+
+## Project Structure
+
+```text
+Job-Market-Analytics-Dashboard/
+│
+├── Data/
+│   └── Raw job posting dataset
+│
+├── Power Query/
+│   └── Data cleaning and transformation
+│
+├── Power BI/
+│   └── Job Market Analytics Dashboard.pbix
+│
+├── Images/
+│   └── Dashboard screenshots
+│
+└── README.md
+```
+
+## Conclusion
+
+This project demonstrates a complete business intelligence workflow, from cleaning raw job market data to building an interactive Power BI dashboard. By combining Power Query, Power Pivot, DAX, and visualization techniques, it transforms thousands of job postings into actionable insights on salaries, hiring trends, skill demand, and remote work, enabling more informed career decisions.
+```
 
