@@ -72,14 +72,6 @@ The Power BI dashboard includes:
 - Technical skills appeared most frequently across multiple job categories.
 - Hiring activity fluctuated across quarters, revealing seasonal recruitment patterns.
 
-## Recommendations
-
-- Prioritize learning high-demand technical skills to improve employability.
-- Consider remote opportunities when targeting higher-paying positions.
-- Focus job searches on countries with stronger hiring demand for target roles.
-- Track seasonal hiring trends to identify favorable application periods.
-- Use salary insights to negotiate compensation more effectively.
-
 ## Project Structure
 
 ```text
