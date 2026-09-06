@@ -95,4 +95,3 @@ Job-Market-Analytics-Dashboard/
 ## Conclusion
 
 This project demonstrates a complete business intelligence workflow, from cleaning raw job market data to building an interactive Power BI dashboard. By combining Power Query, Power Pivot, DAX, and visualization techniques, it transforms thousands of job postings into actionable insights on salaries, hiring trends, skill demand, and remote work, enabling more informed career decisions.
-```
